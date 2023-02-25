@@ -1,0 +1,88 @@
+/* NAVBAR */
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  border-bottom: 0.1px solid #98989a;
+  padding-left: 24px;
+}
+.navgroup {
+  display: flex;
+  flex-grow: 2;
+  margin: 0 4px;
+  align-items: center;
+  position: relative;
+  bottom: 4px;
+}
+.navright {
+  flex-grow: 0.2;
+  position: relative;
+}
+.navsearch {
+  flex-grow: 8;
+}
+.navsearch > * {
+  /* width: 90%; */
+  text-align: center;
+}
+.navgroup > * {
+  margin-right: 0.6em;
+}
+.navright > * {
+  margin-right: 1em;
+}
+/* ICONS */
+.brandname {
+  font-size: 22px;
+  font-weight: 300;
+  padding-top: 8px;
+  cursor: pointer;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+.icons {
+  width: 26px;
+  fill: #98989a;
+  /* font-weight: 900; */
+  padding-top: 10px;
+  max-width: 30px;
+  max-height: 30px;
+  cursor: pointer;
+}
+.appicon {
+  max-width: 30px;
+  max-height: 30px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.usericon {
+  position: relative;
+  width: 44px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+.keepicon {
+  width: 40px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.empty {
+  min-width: 40px;
+}
+
+@media (max-width: 850px) {
+  .navsearch {
+    display: none;
+  }
+
+  .Nav > * {
+    display: flex;
+    margin: 0px;
+  }
+  .navright {
+    flex-direction: row;
+  }
+}
+

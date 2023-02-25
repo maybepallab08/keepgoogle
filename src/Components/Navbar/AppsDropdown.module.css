@@ -1,0 +1,43 @@
+.appsdropdown {
+    position: absolute;
+    right:0px;
+    top: 34px;
+    background: #282828;
+    /* margin-left: 20px; */
+    margin-top: 26px;
+    box-sizing: border-box;
+    /* padding: 4px 8px; */
+    box-shadow: 0 0 10px black;
+    border: solid 1px black;
+    border-radius: 8px;
+    width: max-content;
+    z-index: 20;
+    font-size: 14px;
+  }
+  .imagegroup>*{
+   margin: 8px 8px;
+  }
+  .appsdropdown> * {
+    margin: 8px;
+    
+  }
+  .googleicons{
+    width: 42px;
+    position: relative;
+  }
+  .caption{
+    display: block;
+  }
+  .imagecap{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 10px;
+  }
+  .imagecap:hover{
+    background-color: #202020;
+  }
+ 

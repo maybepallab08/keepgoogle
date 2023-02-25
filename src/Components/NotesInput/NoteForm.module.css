@@ -1,0 +1,20 @@
+.takenote {
+    font-size: 16px;
+    padding:15px;
+    background-color: #202124;
+    border: 0.1px solid #98989a;
+    border-radius: 8px;
+    width: 400px;
+    /* margin:auto; */
+}
+.noteform {
+    margin: 20px 0;
+    text-align: center;
+   
+}
+input:focus::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.87);
+}
+input:focus{
+    color:rgba(255, 255, 255, 0.87) ;
+}

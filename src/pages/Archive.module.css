@@ -1,0 +1,21 @@
+.archive {
+  color: #98989a;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: 80vh;
+  flex-direction: column;
+}
+.icon{
+    max-width: 100%;
+    display: block;
+  
+    margin-bottom: 10px;
+}
+.caption{
+    text-align: center;
+    width: 100%;
+}

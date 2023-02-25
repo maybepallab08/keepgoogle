@@ -1,0 +1,29 @@
+.sidebar {
+  float: left;
+  width: 80px;
+  height: 100vmax;
+  text-align: center;
+  /* margin-top: 20px; */
+  margin-right: 30px;
+}
+.sidebarIcons {
+  width: 28px;
+  margin-left: 2px;
+  cursor: pointer;
+  margin-top: 2px;
+
+}
+.active {
+background-color: #41331C;
+padding: 24px 9px 9px 9px;
+border-radius: 40%;
+}
+
+.inactive{
+  /* background-color: blue; */
+  padding: 24px 9px 9px 9px;
+  border-radius: 40%;
+}
+.wrapper{
+  margin: 24px 0;
+}
